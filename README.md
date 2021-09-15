@@ -8,7 +8,7 @@ git clone https://github.com/tranvietphuoc/images.git
 ```
 * Then run:
 ```
-cd ./image/jupyter/ && docker build -t <Image-Name> .
+cd ./images/jupyter/ && docker build -t <Image-Name> .
 ```
 * After building completed, then run:
 ```
