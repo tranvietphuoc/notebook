@@ -1,4 +1,4 @@
-## Notebook
+## Notebooks
 #### Aming to practice `Python` and `Rust`
 * Here I use `docker` to associate with `jupyter`
 * The `Dockerfile`'s build from [here](https://github.com/tranvietphuoc/images/tree/master/jupyter)
