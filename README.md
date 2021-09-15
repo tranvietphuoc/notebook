@@ -12,6 +12,6 @@ cd ./image/jupyter/ && docker build -t <Image-Name> .
 ```
 * After building completed, then run:
 ```
-docker run --network="bridge" -it --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v $(pwd):/home/phuoc/work <Image-Name>:latest
+docker run -it --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v $(pwd):/home/phuoc/work <Image-Name>:latest
 ```
-* Notice that `<Image-Name>` must be change.
+* Notice that `<Image-Name>` must be change. And use `-v $(pwd):/home/phuoc/work` to associate the image with local folder.
