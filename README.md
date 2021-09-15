@@ -15,3 +15,4 @@ cd ./images/jupyter/ && docker build -t <Image-Name> .
 docker run -it --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v $(pwd):/home/phuoc/work <Image-Name>:latest
 ```
 * Notice that `<Image-Name>` must be change. And use `-v $(pwd):/home/phuoc/work` to associate the image with local folder.
+* Base on [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)...
