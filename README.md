@@ -17,3 +17,4 @@ docker run -it --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v $(pwd):/home/phuoc
 * Notice that `<Image-Name>` must be change. And use `-v $(pwd):/home/phuoc/work` to associate the image with local folder.
 * Base on [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)...
 * Or you can use `docker pull phuoctv/jupyter:latest` to pull the image. Then run the command above.
+* If unable to use `docker run...` then change the `<Image-Name>:latest` to image id of the command `docker images`
