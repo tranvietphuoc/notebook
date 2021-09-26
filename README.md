@@ -8,7 +8,7 @@ git clone https://github.com/tranvietphuoc/images.git
 ```
 * Then run:
 ```
-cd ./images/jupyter/ && docker build -t <Image-Name> .
+cd ./images/jupyter/ && docker image build -t <Image-Name> .
 ```
 * After building completed, then run:
 ```
@@ -16,3 +16,4 @@ docker run -it --rm -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v $(pwd):/home/phuoc
 ```
 * Notice that `<Image-Name>` must be change. And use `-v $(pwd):/home/phuoc/work` to associate the image with local folder.
 * Base on [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/)...
+* Or you can use `docker pull phuoctv/jupyter:latest` to pull the image. Then run the command above.
