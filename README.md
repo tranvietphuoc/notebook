@@ -1,7 +1,7 @@
 # Notebooks
 ### Aming to practice `Python` and `Rust`
 * Here I use `docker` to associate with `jupyter`.
-* The `Dockerfile`'s built from [here](https://github.com/tranvietphuoc/images/tree/master/jupyter).
+* The `Dockerfile`'s built from [here](https://github.com/trvph/images/tree/master/jupyter).
 * You must clone all files into your local machine:
 ```
 git clone https://github.com/tranvietphuoc/images.git
