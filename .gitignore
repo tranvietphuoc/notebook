@@ -1,3 +1,4 @@
 .git/
 *.xlsx
 .DS_Store
+.ipynv_checkpoints/
